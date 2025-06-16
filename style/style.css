@@ -1,8 +1,41 @@
+.YT_block{
+    left: 0; 
+    width: 100%; 
+    height: 0; 
+    position: relative; 
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+}
+
+.ImageBlock img{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 50px 0px;
+    /*box-shadow: 10px 10px 5px black;*/
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 19px 38px, rgba(0, 0, 0, 0.7) 0px 15px 12px; !important
+
+}
+
 body{
   scroll-behavior: smooth;
 	margin: 0px;
 	padding: 0px;
 }
+
+.divBG_blk{
+  background: rgba(0, 0, 0, .95);
+  width: 100%;
+  color: white;
+  padding: 10px 0 0 0;
+  /*text-align: center;*/
+}
+.divBG{
+  /*background: rgba(0, 0, 0, 0.7);*/
+  width: 100%;
+  margin: 20px 0 0 0;
+  /*text-align: center;*/
+}
+
 .video_bg{
 	position: fixed;
 	right: 0;
@@ -20,11 +53,29 @@ body{
 	font-size: 20px;
 }
 
-.dp{
+.dpHobby{
 	position: absolute;
-	padding: 10%;
+	padding: 10% 0 0 0;
 	text-align: center;
-	
+  color: white;	
+}
+.dp{
+  position: absolute;
+  padding: 10% 0 0 0;
+  text-align: center;
+}
+
+.collectiondpBG{
+  background-image: url("../image/collection_cover_DP.jpg");
+
+  background-position: bottom;
+
+}
+.PhotographydpBG{
+  background-image: url("../image/photograpgy_cover_Bg.jpg");
+
+  background-position: bottom;
+
 }
 .dp h2{
 	padding-top: 3%;
